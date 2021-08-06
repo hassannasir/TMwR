@@ -49,7 +49,7 @@ specifies that the chirp rate is the outcome (since it is on the left-hand side 
 rate ~ temp + time
 ```
 
-would not add the time and temperature values together. This formula would symbolically represent that temperature and time should be added as separate _main effects_ to the model. A main effect is a model term that contains a single predictor variable. 
+would add the time and temperature values together. This formula would symbolically represent that temperature and time should be added as separate _main effects_ to the model. A main effect is a model term that contains a single predictor variable. 
 
 There are no time measurements in these data but the species can be added to the model in the same way: 
 
